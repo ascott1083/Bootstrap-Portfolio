@@ -36,7 +36,7 @@ body {
   
   h2,
   h3 {
-    font-size: 22px;
+    font-size: 14px;
   }
   
   /* header */
@@ -119,6 +119,7 @@ body {
   
   /* main */
   
+  
   .main-section {
     padding: 0px 30px 30px 30px;
     margin: 0px 0px 30px;
@@ -151,8 +152,9 @@ body {
   
   /* override bootstrap defaults for portfolio page */
   .caption {
-    width:100%;
-    bottom: 10px;
+    width:71%;
+    bottom: 6px;
+    right: 25px;
     position: absolute;
     background: #4aaaa5;
   }
