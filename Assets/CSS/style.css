@@ -73,10 +73,7 @@ body {
     margin-top: 30px;
   }
   
-  /* remove border from the about link */
-  #no-border-about {
-    border-left: 0 none !important;
-  }
+ 
   
   /* footer */
   
@@ -164,7 +161,7 @@ body {
     box-shadow: none;
     margin: 15px;
     padding: 0;
-    max-width: 220px;  /* computed max-width of img-responsive */
+    max-width: 220px;  
   }
   
   .caption h3 {
