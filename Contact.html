@@ -1,78 +1,57 @@
 <!DOCTYPE html>
-
-<html lang="en-us">
-  
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact | AJ Scott</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-
-<nav class="navbar navbar-default" id="masthead">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#" id="logo">AJ Scott</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav  navbar-right" id="navbar-links">
-        <li><a href="index.html" id="no-border-about">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-</nav>
-
-<div class="container">
-
-  <div class="col-md-8 main-section">
-    <h1>Contact</h1>
-    
-    <form>
-      <div class="form-group" id="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-      </div>
-
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required="required"></textarea>
-      </div>
-          
-        <button type="submit" class="btn btn-default" id="submit-button">Submit</button>
-
-    </form>
-  </div>
-
-
-</div>
-
-
-<div class="container-fluid footer-section">
-  <div class="row">
-    <p>&copy; Copyright 2019</p>
-  </div>
-</div>
-
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1">
+        <title>Basic Portfolio</title>
+        <link rel="stylesheet" href="Assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+        <link rel="stylesheet" media='screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)' href="Assets/css/tablet.css">
+        <link rel="stylesheet" media='screen and (min-device-width: 320px) and (max-device-width: 569px) and (-webkit-min-device-pixel-ratio: 2)' href="Assets/css/mobile.css">
+        <link rel="stylesheet" href="Assets/images/funky-lines.png">
+    </head>
  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-</body>
+    <body>
+        <header>
+            <section id="HeaderContainer">
+                <section id="Name">
+                    Santiago I
+                </section>
+                <section id="Contact">
+                    <a href="contact.html">Contact</a>
+                </section>
+ 
+                <section id="Portfolio">
+                    <a href="portfolio.html">| &#160&#160 Portfolio &#160&#160 |</a>
+                </section>
+            
+                <section id="AboutMe">
+                    <a href="index.html">About Me</a>
+                </section>
+            </section>
+        </header>
+        <section id="AboutBody">
+            <div id="AboutMe2">
+                Contact
+            </div>
+            <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Jane Doe">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="address" placeholder="example@gmail.com">
+            
+                <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <button type="button" class="block">Submit</button>
+            </form>
+            </div>
+        </section>
+        
+    
+        <footer>
+            <br>
+            Copyright©
+        </footer>
+    </body>
 </html>
