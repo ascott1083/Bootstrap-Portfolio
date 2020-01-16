@@ -172,9 +172,16 @@ body{
 }
 
 #Picture{
-  float:left;
-  margin-right:20px;
+  float:right;
+  max-width: 50%;
+  max-height: 50%;
 }
+
+img{
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+  }
 
 footer{
   position:fixed;
