@@ -1,56 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content= "width=device-width, initial-scale=1">
-        <title>Basic Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-        <link rel="stylesheet" media='screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)' href="Assets/css/tablet.css">
-        <link rel="stylesheet" media='screen and (min-device-width: 320px) and (max-device-width: 569px) and (-webkit-min-device-pixel-ratio: 2)' href="Assets/css/mobile.css">
-        <link rel="stylesheet" href="Assets/images/brushed.png">
-    </head>
- 
-    <body>
+<html lang="en">
+<head>
+    <title> AJ Scott </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        a.link:visited{
+            color: #777777;
+        }
+    </style>
+</head>
+<body id="container">
+    <div id="content-wrap">
         <header>
-            <section id="HeaderContainer">
-                <section id="Name">
-                    AJ Scott
-                </section>
-                <section id="Contact">
-                    <a href="contact.html">Contact</a>
-                </section>
- 
-                <section id="Portfolio">
-                    <a href="portfolio.html">| &#160&#160 Portfolio &#160&#160 |</a>
-                </section>
-            
-                <section id="AboutMe">
-                    <a href="index.html">About Me</a>
-                </section>
+            <section id="navbar" class="clearfix">
+
+                <h1 id="name">AJ Scott</h1>
+
+                <nav>
+                    
+                    <a class="link" href="index.html">About</a> |
+                    <a class="link" href="portfolio.html">Portfolio</a> |
+                    <a class="link" href="contact.html">Contact</a>
+
+                </nav>
+
             </section>
         </header>
-        <section id="AboutBody">
-            <div id="AboutMe2">
-                Contact
-            </div>
-            <form action="/action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Jane Doe">
-            
-                <label for="email">Email</label>
-                <input type="text" id="email" name="address" placeholder="example@gmail.com">
-            
-                <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                <button type="button" class="block">Submit</button>
-            </form>
-            </div>
-        </section>
         
+        <main class="clearfix">
+            <section id="contactline">
+                <h1 id="about">Contact</h1>
+            </section>
+
+            <form action="mailto:sarahbmcl@gmail.com" method="post" enctype="text/plain">
+            <p id="contactwords">Name</p>
+            <input id="input" type="text" name="name" placeholder="John Smith">
+            <p id="contactwords">Email</p>
+            <input id="input" type="text" name="email" placeholder="example@gmail.com">
+            <p id="contactwords">Message</p>
+            <textarea id="messageinput" name="message" type="text"></textarea><br>
+            <input type="submit" value="Submit"></form>
+        </main>
+
+    </div>
     
-        <footer>
-            <br>
-            Copyright©
-        </footer>
-    </body>
+    <footer>
+        <p id="copyright">copyright ©</p>
+    </footer>
+
+</body>
+
 </html>
