@@ -1,87 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content= "width = device-width, initial-scale=1">
-        <title>Basic Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-        <link rel="stylesheet" href="Assets/images/brushed.png">
-    </head>
- 
-    <body>
+<html lang="en">
+<head>
+    <title> AJ Scott </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        a.page-link:visited {
+          color: white;
+        }
+
+        a.link:visited{
+            color: #777777;
+        }
+    </style>
+</head>
+<body id="container">
+    <div id="content-wrap">
         <header>
-            <section id="HeaderContainer">
-                <section id="Name">
-                    AJ Scott
-                </section>
-                <section id="Contact">
-                    <a href="contact.html">Contact</a>
-                </section>
- 
-                <section id="Portfolio">
-                    <a href="portfolio.html">| &#160&#160 Portfolio &#160&#160 |</a>
-                </section>
-            
-                <section id="AboutMe">
-                    <a href="index.html">About Me</a>
-                </section>
+            <section id="navbar" class="clearfix">
+
+                <h1 id="name">AJ Scott</h1>
+
+                <nav>
+                    
+                    <a class="link" href="index.html">About</a> |
+                    <a class="link" href="portfolio.html">Portfolio</a> |
+                    <a class="link" href="contact.html">Contact</a>
+
+                </nav>
+
             </section>
         </header>
-        <section id="AboutBody">
-            <div id="AboutMe2">
-                Portfolio
-            </div>
-            <div>
-                <section class="column"><a href="https://ascott1083.github.io/Giphs/"><img class="thumbnail" src="Assets/images/food.jpg"></a>
-                    
-                    <div class="text-block">
-                        
-                            <a href="https://ascott1083.github.io/Giphs/" target="_blank"><h4>Giphy</h4></a>    
-                        
-                    </div>
-                </section>
-                <section class="column"><a href="https://ascott1083.github.io/Rescue-the-Princess/"><img class="thumbnail" src="Assets/images/mario.jpeg"></a>
-                    
-                    <div class="text-block">
-                        <a href="hhttps://ascott1083.github.io/Rescue-the-Princess/" target="_blank"><h4>Rescue The Princess</h4></a>
-                    </div>
-                </section>
-                <section class="column"><a href="https://ascott1083.github.io/Trivia-Game/"><img class="thumbnail" src="Assets/images/question-mark1.jpeg"></a>
-                    
-                    <div class="text-block">
-                        <a href="https://ascott1083.github.io/Trivia-Game/" target="_blank"><h4>Trivia</h4></a>
-                    </div>
-                </section>
-                <section class="column"><a href="https://gej15.github.io/musicApp/"><img class="thumbnail" src="Assets/images/music.jpeg"></a>
-                    
-                    <div class="text-block">
-                        <a href="https://gej15.github.io/musicApp/" target="_blank"><h4>musicApp (project1)</h4></a>
-                    </div>
-                </section>
-                <section class="column"><a href="https://guarded-basin-29878.herokuapp.com/"><img class="thumbnail" src="Assets/images/friends.jpg"></a>
-                    
-                    <div class="text-block">
-                        <a href="https://guarded-basin-29878.herokuapp.com/" target="_blank"><h4>Friend Finder</h4></a>
-                    </div>
-                </section>
-                <section class="column"><a href="https://sheltered-cliffs-00088.herokuapp.com/"><img class="thumbnail" src="Assets/images/soccer.jpg"></a>
-                    
-                    <div class="text-block">
-                        <a href="https://sheltered-cliffs-00088.herokuapp.com/" target="_blank"><h4>Pick'Em (project2)</h4></a>
-                    </div>
-                </section>
-            <section class="column"><a href="https://ascott1083.github.io/theofficegame/WGG.html"><img class="thumbnail" src="Assets/images/office.jpeg"></a>
-                
-                <div class="text-block">
-                    <a href="https://ascott1083.github.io/theofficegame/WGG.html" target="_blank"><h4>Hangman</h4></a>
-                </div>
+
+        <main class="clearfix">
+
+            <section id="contactline">
+                <h1 id="about">Portfolio</h1>
             </section>
+
+            <div class="column">
+                <div class="row">
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/food.jpg" alt="Giphy-API">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Giphs/">Giphy API</a></button>
+                    </div>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/mario.jpeg" alt="JQuery">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Rescue-the-Princess/">Rescue the Princess</a></button>
+                    </div>
+                
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/question-mark1.jpeg" alt="Trivia-Game">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/Trivia-Game/">Trivia Game</a></button>
+                    </div>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/train.jpg" alt="train scheduler">
+                    <button class="btn"><a class="page-link" href="https://ascott1083.github.io/TrainScheduler/.">Train Scheduler</a></button>
+                    </div>
+
+                    <div class="container2">
+                    <img class="portimage spacer" src="assets/images/soccer.jpg" alt="project 2">
+                    <button class="btn"><a class="page-link" href="https://sheltered-cliffs-00088.herokuapp.com/">Fantasy Pick'em</a></button>
+                    </div>
+                </div>
             </div>
-        </section>
-        
-        <footer>
-            <br>
-            Copyright©
-        </footer>
-    </body>
+            
+        </main>
+
+    </div>
+    
+    <footer>
+        <p id="copyright">copyright ©</p>
+    </footer>
+
+</body>
+
 </html>
